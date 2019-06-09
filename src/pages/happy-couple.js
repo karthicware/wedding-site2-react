@@ -7,13 +7,13 @@ const styles = {
 const HappyCouple = () => {
   return (
     <div className="section text-center">
-      <h2 className="title text-danger">Happy Couple</h2>
+      <h1 className="title text-danger">Happy Couple</h1>
 
-      <div className="row" style={{ marginTop: "100px" }}>
+      <div className="row">
         <div className="col-md-6 text-center">
           <img src="../assets/img/groom.jpg" style={styles.img} alt="Groom" />
           <h3 className="title gv_font">Natarajan</h3>
-          <h5 class="text-muted">
+          <h5 className="text-muted">
             Describe about your nature, wish, hobbies etc in a clear way and
             give the other opponents a clear understanding of your personality,
             keep it simple..
@@ -22,7 +22,7 @@ const HappyCouple = () => {
         <div className="col-md-6 text-center">
           <img src="../assets/img/bride.jpg" style={styles.img} alt="Groom" />
           <h3 className="title gv_font">Shamini</h3>
-          <h5 class="text-muted">
+          <h5 className="text-muted">
             Describe about your nature, wish, hobbies etc in a clear way and
             give the other opponents a clear understanding of your personality,
             keep it simple..

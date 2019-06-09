@@ -6,7 +6,7 @@ const Header = () => {
       <div
         className="page-header header-filter"
         data-parallax="true"
-        style={{ "background-image": "url('../assets/img/mbr-1280x1920.jpg')" }}
+        style={{ backgroundImage: "url('../assets/img/mbr-1280x1920.jpg')" }}
       />
     </>
   );
